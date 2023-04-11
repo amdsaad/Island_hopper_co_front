@@ -9,7 +9,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
     "@nuxtjs/apollo": "^5.0.0-alpha.6",
+    "@nuxtjs/eslint-module": "^4.0.2",
+    "eslint": "^8.38.0",
     "nuxt": "^3.3.3"
   }
 }

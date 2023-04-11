@@ -10,7 +10,7 @@
 <script setup>
 import { allArticlesQuery } from "~/graphql/queries";
 
-const { data, error, pending } = await useAsyncQuery(allArticlesQuery);
+const { data } = await useAsyncQuery(allArticlesQuery);
 const articles = data.value.articles.data;
 </script>
 

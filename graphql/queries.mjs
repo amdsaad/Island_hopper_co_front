@@ -1,5 +1,3 @@
-import gql from 'graphql-tag'
-
 export const allArticlesQuery = gql`
   query allArticlesQuery {
     articles {
